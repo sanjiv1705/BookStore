@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_us_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/edittextback"
+        android:gravity="center"
+        android:text="Update"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Button
+        android:id="@+id/btn_updated"
+        android:text="Update"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:hint="Book Name"
+        android:background="@drawable/edittextback"
+        android:id="@+id/et_bookname"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Book Author"
+        android:id="@+id/et_bookauthor"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/edittextback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

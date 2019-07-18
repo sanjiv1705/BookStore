@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit"
+    tools:context=".Edit_Information">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Edit Profile"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"/>
+    <!--<Button-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:textColor="#000"-->
+        <!--android:id="@+id/edit"-->
+        <!--android:background="@drawable/ic_edit_black_24dp"-->
+        <!--/>-->
+
+    <EditText
+        android:hint="Your Name"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:id="@+id/et_name1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextback"/>
+    <EditText
+        android:hint="Change Password"
+        android:inputType="textPassword"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:id="@+id/et_password1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextback"/>
+
+
+    <EditText
+        android:editable="false"
+        android:inputType="none"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:hint="User Email Address"
+        android:id="@+id/et_email1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextback"/>
+
+    <EditText
+        android:inputType="phone"
+        android:hint="Mobile No"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:id="@+id/et_mob1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextback"/>
+    <EditText
+        android:hint="Collage"
+        android:textSize="30dp"
+        android:id="@+id/et_collage1"
+        android:layout_margin="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/edittextback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Address"
+        android:textSize="30dp"
+        android:id="@+id/et_address1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittextback"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_edit1"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+
+        android:text="SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
